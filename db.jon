@@ -1,0 +1,28 @@
+{
+  "qualityOutcomes": [
+    { "name": "Pass", "value": 85, "color": "#4db8a8" },
+    { "name": "Fail", "value": 15, "color": "#ff6b9d" }
+  ],
+  "qualityFailures": [
+    { "testType": "HIV", "failures": 3 },
+    { "testType": "Hepatitis", "failures": 4 },
+    { "testType": "Other", "failures": 2 }
+  ],
+  "expiryRisk": [
+    { "daysToExpiry": 2, "quantity": 50, "risk": "Critical" },
+    { "daysToExpiry": 4, "quantity": 30, "risk": "Warning" },
+    { "daysToExpiry": 6, "quantity": 20, "risk": "Safe" }
+  ],
+  "expiryTrends": [
+    { "date": "Oct 15", "units": 5 },
+    { "date": "Oct 20", "units": 12 },
+    { "date": "Oct 25", "units": 8 },
+    { "date": "Nov 1", "units": 20 }
+  ],
+  "summary": {
+    "totalTests": 1247,
+    "passRate": 85,
+    "unitsAtRisk": 100,
+    "totalFailures": 9
+  }
+}
