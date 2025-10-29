@@ -4,7 +4,7 @@
     { "name": "Fail", "value": 15, "color": "#ff6b9d" }
   ],
   "qualityFailures": [
-    { "testType": "HIV", "failures": 3 },
+    { "testType": "HIV", "failures": 10 },
     { "testType": "Hepatitis", "failures": 4 },
     { "testType": "Other", "failures": 2 }
   ],
